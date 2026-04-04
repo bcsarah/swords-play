@@ -1,7 +1,7 @@
 # [ DEBUG]
-debug_mode = True
-fast_start = True
-auto_choose = True
+debug_mode = False
+fast_start = False
+auto_choose = False
 
 # ---------------
 #  | LIBRARIES |
@@ -897,4 +897,7 @@ def main(stdscr):
         xannegar_way()
 
 
-curses.wrapper(main)
+try:
+    curses.wrapper(main)
+except KeyboardInterrupt:
+    pass
