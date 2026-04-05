@@ -1,2 +1,2 @@
 # swords-play
-A Terminal Turn-based RPG, developed with Python3. Wanna fight?
+Um RPG de Turnos baseado em terminal, feito em Python3. Vem pro fight!
